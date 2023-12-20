@@ -1,0 +1,159 @@
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width:1399.98px) {}
+@media (min-width: 992px) and (max-width:1199.98px) {
+    .allignment{
+        width: 95%;
+    }
+    #about-heart{
+        right: -11.5%;
+    }
+}
+@media (min-width: 768px) and (max-width:991.98px) {
+    .allignment{
+        width: unset;
+    }
+    .menu-con .items{
+        margin-left: 6px;
+        gap: 10px;
+    }
+    #about-heart{
+        right: -14%;
+    }
+    .hr-logo{
+        width: 35px;
+        height: 35px;
+        bottom: -16px;
+        left: 29px;
+    }
+    #hr-1{
+        font-size: 15px;
+    }
+    #hr-2{
+        font-size: 15px;
+    }
+    .date-time-place h1{
+        font-size: 14px;
+    }
+    .when-where-inner-con{
+        width: 49%;
+        height: auto;
+        margin: 15px 2px;
+    }
+    .wnw-inner-con-logo{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .wnw-inner-con-inner-wrapper{
+        line-height: 30px;
+        margin: 10px 0;
+    }
+    .wnw-inner-con-inner-wrapper h1{
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width:767.98px) {
+    .allignment{
+        width: unset;
+    }
+    .menu-con .items{
+        margin-left: 5px;
+        font-size: 10px;
+        gap: 5px;
+    }
+    #about-heart{
+        right: -20%;
+    }
+    #story-img{
+        width: 31.5%;
+        height: 380px;
+        margin: 7.7%;
+    }
+    .hr-logo{
+        width: 35px;
+        height: 35px;
+        bottom: -16px;
+        left: 20px;
+    }
+    #hr-1{
+        font-size: 15px;
+    }
+    #hr-2{
+        font-size: 15px;
+    }
+    .date-time-place h1{
+        font-size: 14px;
+    }
+    .when-where-inner-con{
+        width: 49%;
+        height: auto;
+        margin: 15px 2px;
+    }
+    .wnw-inner-con-logo{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .wnw-inner-con-inner-wrapper{
+        line-height: 30px;
+        margin: 10px 0;
+    }
+    .wnw-inner-con-inner-wrapper h1{
+        font-size: 16px;
+    }
+}
+@media (max-width: 575.98px) {
+    .allignment{
+        width: unset;
+    }
+    .menu-con .items{
+        margin-left: 1px;
+        gap: 1px;
+    }
+    #about-heart{
+        right: -20%;
+    }
+    #story-img{
+        width: 31.5%;
+        height: 380px;
+        margin: 7.7%;
+    }
+    .hr-logo{
+        width: 35px;
+        height: 35px;
+        bottom: -16px;
+        left: 20px;
+    }
+    #hr-1{
+        font-size: 15px;
+    }
+    #hr-2{
+        font-size: 15px;
+    }
+    .date-time-place h1{
+        font-size: 14px;
+    }
+    .when-where-inner-con{
+        width: 49%;
+        height: auto;
+        margin: 10px 2px;
+    }
+    .wnw-inner-con-logo{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .wnw-inner-con-inner-wrapper{
+        line-height: 30px;
+        margin: 10px 0;
+    }
+    .wnw-inner-con-inner-wrapper h1{
+        font-size: 16px;
+    }
+}

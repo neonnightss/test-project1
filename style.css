@@ -55,12 +55,12 @@ img {
 }
 #heart-one{
     font-size: 20px;
-    color: seagreen;
+    color: slategrey;
     position: relative;
 }
 #heart-two{
     font-size: 20px;
-    color: crimson;
+    color: #f44336;
     position: absolute;
     right: 80%;
     top: 50%;
@@ -82,29 +82,29 @@ img {
     z-index: 1;
 }
 .allignment{
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 .menu-con{
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 }
 li{
     list-style: none;
 }
 .menu-con .items{
-    margin-left: 40px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: rgb(87, 87, 87);
 }
 .menu-con .items .heart{
     font-size: 8px;
-    color: crimson;
+    color: #f44336;
 }
 .items a{
     text-decoration: none;
@@ -113,7 +113,7 @@ li{
     font-weight: 300;
 }
 .items li:hover a{
-    color: crimson;
+    color: #f44336;
 }
 .logo-item{
     height: 60px;
@@ -124,6 +124,7 @@ li{
     background-color: rgb(219, 55, 55);
     text-align: center;
     line-height: 55px;
+    cursor: pointer;
 }
 .logo-item a{
     font-size: 14px;
@@ -175,15 +176,15 @@ li{
     line-height: 65px;
     color: snow;
     position: absolute;
-    right: -10.2%;
-    top: 0;
+    right: -10.36%;
+    top: -40px;
 }
 .about-con p{
     font-size: 14px;
     font-family: 'Arvo', serif;
     margin: 30px 0 0 0;
     color: rgb(99, 98, 98);
-    letter-spacing: 0.1cap;
+    letter-spacing: 0.05cap;
 }
 .about-img img{
     width: 100%;
@@ -228,7 +229,7 @@ li{
     font-size: 20px;
 }
 .img-overlay ul a:hover{
-    background: crimson;
+    background: #f44336;
     color: snow;
     transition: 0.8s;
 }
@@ -405,16 +406,16 @@ li{
     align-items: center;
     position: absolute;
     bottom: -31px;
-    left: 34px;
+    left: 33px;
 }
 #hr-1{
     font-size: 20px;
-    color: rgb(228, 41, 41);
+    color: #f44336;
     position: relative;
 }
 #hr-2{
     font-size: 20px;
-    color: rgb(209, 207, 207);
+    color: sandybrown;
 }
 .getting-married img{
     margin: 0;
@@ -485,7 +486,7 @@ li{
 .when-where-inner-con{
     width: 49%;
     height: auto;
-    margin: 45px 0;
+    margin: 45px 2px;
 }
 .wnw-inner-con-inner-wrapper{
     display: flex;
@@ -494,7 +495,7 @@ li{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: rgb(228, 41, 41);
+    background-color: #f44336;
     color: snow;
     text-align: center;
     line-height: 45px;
@@ -521,7 +522,7 @@ li{
     letter-spacing: 0.05em;
 }
 .gmap{
-    width: 45%;
+    width: 48%;
     height: 460px;
     margin: 70px 0;
     border: snow;
@@ -532,17 +533,20 @@ li{
 
 .rsvp-main{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: url(img/kiss.jpg);
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rsvp-con{
     width: 60%;
+    height: 100%;
     margin: 0 auto;
-    padding: 150px 0;
     text-align: center;
 }
 .rsvp-con h1{
@@ -551,35 +555,46 @@ li{
     border-right: none;
     padding: 20px;
     font-size: 40px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.08em;
     color: rgb(14, 13, 13);
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    position: relative;
 }
 .rsvp-con p{
     margin: 25px 0;
     color: rgb(14, 13, 13);
     letter-spacing: 0.03em;
 }
-.rsvp-div{
-    width: 150px;
-    height: 40px;
-    margin-left: 40%;
-    background-color: #fdfdfd00;
-    border: #faa526;
-    border-style: solid;
-    border-width: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.rsvp-div a{
+#rsvp-btn{
+    padding: 12px 60px;
+    text-align: center;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    color: #131313;
+    display: inline-block;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    background-color: #ffffff00;
+    color: #0f0f0f;
+    border: 2px solid #f44336;
+}
+#rsvp-btn:hover {
+    background-color: #f44336;
+    color: snow;
+}
+.rsvp-icon{
+    font-size: 24px;
+    position: absolute;
+    top: -15px;
+    left: 46.4%;
+}
+#rsvp-h1{
+    color: #f44336;
+    z-index: 1;
+}
+#rsvp-h2{
+    left: 49.4%;
+    color: sandybrown;
 }
